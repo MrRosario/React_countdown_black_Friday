@@ -1,0 +1,33 @@
+.countdown-container{
+    width: 350px;
+    height: 450px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+h1.title {
+    font-size: 35px;
+}
+h2.subtitle {
+    color: #c41230;
+    font-size: 35px;
+}
+.time-container{
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: row;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    .countdown-container{
+        border: unset !important;
+        padding-top: unset !important;
+    }
+}
