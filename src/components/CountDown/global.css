@@ -11,10 +11,11 @@
 }
 h1.title {
     font-size: 35px;
+    color: #c41230;
 }
 h2.subtitle {
-    color: #c41230;
-    font-size: 35px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .time-container{
     width: 100%;
