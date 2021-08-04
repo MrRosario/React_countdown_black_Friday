@@ -19,7 +19,7 @@ const CountDown = ({
 
     const CountDownBlackFriday = () => {
         let now = new Date()
-        let eventDate = new Date(2020, 10, 27);
+        let eventDate = new Date(2021, 10, 26);
 
         console.log("EVENTDATE: ", eventDate);
 
